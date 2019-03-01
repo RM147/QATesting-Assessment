@@ -7,6 +7,7 @@ import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.PageFactory;
 
 import landingpages.JenkinsConf;
@@ -24,7 +25,9 @@ public class AssessmentTest {
 	@Before
 	public void setup() {
 		System.setProperty(Constants.DriverSetUp1, Constants.DriverSetUp2);
-		driver = new ChromeDriver();
+		ChromeOptions chromeOptions = new ChromeOptions();
+		chromeOptions.addArguments("--headless");
+		driver = new ChromeDriver(chromeOptions);
 	}
 
 	@After

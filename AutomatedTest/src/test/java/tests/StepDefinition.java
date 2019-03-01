@@ -1,28 +1,48 @@
 package tests;
 
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.PageFactory;
+
 import cucumber.api.PendingException;
+import cucumber.api.java.After;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import landingpages.JenkinsLogin;
+import landingpages.JenkinsSecurity;
 
 public class StepDefinition {
+	ChromeDriver driver;
+	
+	@After
+	public void teardown() {
+		driver.quit();
+	}
 	
 	@Given("^I go to \"([^\"]*)\" website$")
-	public void i_go_to_website(String arg1) throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
+	public void i_go_to_website(String arg1) {
+		System.setProperty(Constants.DriverSetUp1, Constants.DriverSetUp2);
+		ChromeOptions chromeOptions = new ChromeOptions();
+		chromeOptions.addArguments("--headless");
+		driver = new ChromeDriver(chromeOptions);
+		driver.manage().window().maximize();
+		driver.get(Constants.Jenkins);
+		JenkinsLogin login = PageFactory.initElements(driver, JenkinsLogin.class);
+		login.login(Constants.Username);
+		driver.get(Constants.JenkinsUsers);
 	}
 
 	@Given("^the username is present \"([^\"]*)\"$")
 	public void the_username_is_present(String arg1) throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
+		
+	    
 	}
 
 	@When("^I click on username \"([^\"]*)\"$")
 	public void i_click_on_username(String arg1) throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
+		driver.get(Constants.JenkinsLink);
+		Thread.sleep(1500);
 	}
 
 	@When("^I click on configure link$")
