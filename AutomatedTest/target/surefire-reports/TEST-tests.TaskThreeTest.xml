@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="30" failures="0" name="tests.TaskThreeTest" time="3.404" errors="0" skipped="18">
+<testsuite tests="30" failures="0" name="tests.TaskThreeTest" time="3.62" errors="0" skipped="18">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
@@ -66,67 +66,67 @@
   <testcase classname="| http://35.242.186.40:8080/securityRealm/ | matthunt | Ethan Hunt |" name="Given I go to &quot;http://35.242.186.40:8080/securityRealm/&quot; website" time="0"/>
   <testcase classname="| http://35.242.186.40:8080/securityRealm/ | matthunt | Ethan Hunt |" name="And the username is present &quot;matthunt&quot;" time="0"/>
   <testcase classname="| http://35.242.186.40:8080/securityRealm/ | matthunt | Ethan Hunt |" name="When I click on username &quot;matthunt&quot;" time="0"/>
-  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | matthunt | Ethan Hunt |" name="And I click on configure link" time="0.004">
+  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | matthunt | Ethan Hunt |" name="And I click on configure link" time="0.002">
     <skipped/>
   </testcase>
-  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | matthunt | Ethan Hunt |" name="And change the current fullname to new a new fullname &quot;Ethan Hunt&quot;" time="0.004">
+  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | matthunt | Ethan Hunt |" name="And change the current fullname to new a new fullname &quot;Ethan Hunt&quot;" time="0.002">
     <skipped/>
   </testcase>
-  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | matthunt | Ethan Hunt |" name="And I click save button" time="0.004">
+  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | matthunt | Ethan Hunt |" name="And I click save button" time="0.002">
     <skipped/>
   </testcase>
-  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | matthunt | Ethan Hunt |" name="And I click on People link" time="0.004">
+  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | matthunt | Ethan Hunt |" name="And I click on People link" time="0.003">
     <skipped/>
   </testcase>
-  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | matthunt | Ethan Hunt |" name="Then the new fullname &quot;Ethan Hunt&quot; should be visible for the username &quot;matthunt&quot;" time="0.004">
+  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | matthunt | Ethan Hunt |" name="Then the new fullname &quot;Ethan Hunt&quot; should be visible for the username &quot;matthunt&quot;" time="0.003">
     <skipped/>
   </testcase>
-  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | matthunt | Ethan Hunt |" name="| http://35.242.186.40:8080/securityRealm/ | matthunt | Ethan Hunt |" time="0.545">
+  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | matthunt | Ethan Hunt |" name="| http://35.242.186.40:8080/securityRealm/ | matthunt | Ethan Hunt |" time="0.585">
     <skipped/>
   </testcase>
-  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | matthunt | Ethan Hunt |" name="| http://35.242.186.40:8080/securityRealm/ | matthunt | Ethan Hunt |" time="0.545"/>
-  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chrisp | ChrisPy |" name="Given I go to &quot;http://35.242.186.40:8080/securityRealm/&quot; website" time="0.001"/>
+  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | matthunt | Ethan Hunt |" name="| http://35.242.186.40:8080/securityRealm/ | matthunt | Ethan Hunt |" time="0.585"/>
+  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chrisp | ChrisPy |" name="Given I go to &quot;http://35.242.186.40:8080/securityRealm/&quot; website" time="0"/>
   <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chrisp | ChrisPy |" name="And the username is present &quot;chrisp&quot;" time="0"/>
   <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chrisp | ChrisPy |" name="When I click on username &quot;chrisp&quot;" time="0"/>
-  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chrisp | ChrisPy |" name="And I click on configure link" time="0.001">
+  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chrisp | ChrisPy |" name="And I click on configure link" time="0.002">
     <skipped/>
   </testcase>
   <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chrisp | ChrisPy |" name="And change the current fullname to new a new fullname &quot;ChrisPy&quot;" time="0.005">
     <skipped/>
   </testcase>
-  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chrisp | ChrisPy |" name="And I click save button" time="0.006">
+  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chrisp | ChrisPy |" name="And I click save button" time="0.005">
     <skipped/>
   </testcase>
-  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chrisp | ChrisPy |" name="And I click on People link" time="0.006">
+  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chrisp | ChrisPy |" name="And I click on People link" time="0.005">
     <skipped/>
   </testcase>
-  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chrisp | ChrisPy |" name="Then the new fullname &quot;ChrisPy&quot; should be visible for the username &quot;chrisp&quot;" time="0.006">
+  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chrisp | ChrisPy |" name="Then the new fullname &quot;ChrisPy&quot; should be visible for the username &quot;chrisp&quot;" time="0.005">
     <skipped/>
   </testcase>
-  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chrisp | ChrisPy |" name="| http://35.242.186.40:8080/securityRealm/ | chrisp | ChrisPy |" time="0.561">
+  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chrisp | ChrisPy |" name="| http://35.242.186.40:8080/securityRealm/ | chrisp | ChrisPy |" time="0.625">
     <skipped/>
   </testcase>
-  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chrisp | ChrisPy |" name="| http://35.242.186.40:8080/securityRealm/ | chrisp | ChrisPy |" time="0.561"/>
+  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chrisp | ChrisPy |" name="| http://35.242.186.40:8080/securityRealm/ | chrisp | ChrisPy |" time="0.625"/>
   <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chez | moouuuw |" name="Given I go to &quot;http://35.242.186.40:8080/securityRealm/&quot; website" time="0"/>
   <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chez | moouuuw |" name="And the username is present &quot;chez&quot;" time="0"/>
   <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chez | moouuuw |" name="When I click on username &quot;chez&quot;" time="0"/>
-  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chez | moouuuw |" name="And I click on configure link" time="0.002">
+  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chez | moouuuw |" name="And I click on configure link" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chez | moouuuw |" name="And change the current fullname to new a new fullname &quot;moouuuw&quot;" time="0.002">
+  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chez | moouuuw |" name="And change the current fullname to new a new fullname &quot;moouuuw&quot;" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chez | moouuuw |" name="And I click save button" time="0.003">
+  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chez | moouuuw |" name="And I click save button" time="0.001">
     <skipped/>
   </testcase>
-  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chez | moouuuw |" name="And I click on People link" time="0.007">
+  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chez | moouuuw |" name="And I click on People link" time="0.001">
     <skipped/>
   </testcase>
-  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chez | moouuuw |" name="Then the new fullname &quot;moouuuw&quot; should be visible for the username &quot;chez&quot;" time="0.007">
+  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chez | moouuuw |" name="Then the new fullname &quot;moouuuw&quot; should be visible for the username &quot;chez&quot;" time="0.002">
     <skipped/>
   </testcase>
-  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chez | moouuuw |" name="| http://35.242.186.40:8080/securityRealm/ | chez | moouuuw |" time="0.563">
+  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chez | moouuuw |" name="| http://35.242.186.40:8080/securityRealm/ | chez | moouuuw |" time="0.581">
     <skipped/>
   </testcase>
-  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chez | moouuuw |" name="| http://35.242.186.40:8080/securityRealm/ | chez | moouuuw |" time="0.563"/>
+  <testcase classname="| http://35.242.186.40:8080/securityRealm/ | chez | moouuuw |" name="| http://35.242.186.40:8080/securityRealm/ | chez | moouuuw |" time="0.581"/>
 </testsuite>

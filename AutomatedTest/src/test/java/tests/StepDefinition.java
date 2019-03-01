@@ -10,7 +10,9 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import landingpages.JenkinsLogin;
+import landingpages.JenkinsNameChange;
 import landingpages.JenkinsSecurity;
+import landingpages.JenkinsUserConf;
 
 public class StepDefinition {
 	ChromeDriver driver;
@@ -47,13 +49,13 @@ public class StepDefinition {
 
 	@When("^I click on configure link$")
 	public void i_click_on_configure_link() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
+		// Write code here that turns the phrase above into concrete actions
 	    throw new PendingException();
 	}
 
 	@When("^change the current fullname to new a new fullname \"([^\"]*)\"$")
 	public void change_the_current_fullname_to_new_a_new_fullname(String arg1) throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
+		// Write code here that turns the phrase above into concrete actions
 	    throw new PendingException();
 	}
 
