@@ -13,6 +13,10 @@ public class JenkinsHome {
 	@FindBy(xpath="//*[@id=\"job_AutomatedTest\"]/td[3]/a")
 	private WebElement firstJob;
 	
+	@FindBy(xpath="//*[@id=\"tasks\"]/div[4]/a[2]")
+	private WebElement manage;
+	
+	
 	
 	public void newItem() {
 		newItem.click();
@@ -20,6 +24,10 @@ public class JenkinsHome {
 	
 	public String checkFirstJob() {
 		return firstJob.getText();
+	}
+	
+	public void goToManage() {
+		manage.click();
 	}
 	
 
