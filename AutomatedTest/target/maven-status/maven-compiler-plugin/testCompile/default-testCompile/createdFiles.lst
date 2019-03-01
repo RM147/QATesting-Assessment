@@ -1,0 +1,5 @@
+tests\Constants.class
+tests\AssessmentTest.class
+tests\StepDefinition.class
+tests\TaskThreeTest.class
+tests\TaskTwoTest.class
